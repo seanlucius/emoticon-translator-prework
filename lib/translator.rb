@@ -21,7 +21,7 @@ def get_japanese_emoticon(file_path, emoticon)
   if library_hash["get_emoticon"][english] != nil 
     library_hash["get_emoticon"][english]
   else 
-    
+    puts "Sorry, that emoticon was not found"
   end 
 end
 
